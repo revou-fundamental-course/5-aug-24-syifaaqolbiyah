@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator BMI</title>
     <link rel="stylesheet" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -20,10 +23,9 @@
                 </p>
             </section>
     
-            <form action="">
+            <form action="" class="bg-container">
                 <div>
                     <h3>Jenis Kelamin</h3>
-    
                     <input type="radio" name="jenis-kelamin" id="laki-laki" value="laki-laki">
                     <label for="laki-laki">Laki-laki</label>
                     
@@ -47,7 +49,7 @@
                 </div>
     
                 <div class="form-btn-container">
-                    <button class="button bg-cornsilk">Hitung BMI</button>
+                    <button class="button bg-blue">Hitung BMI</button>
                     <button class="button bg-reset">Reset</button>
                 </div>
             </form>
@@ -63,7 +65,6 @@
                         <li>Menentukan kategori berat badan ideal atau tidak</li>
                         <li>Mempersiapkan program penurunan berat badan</li>
                     </ol>
-                    <br>
                     Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini)
                     dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.
                     <br>
@@ -74,38 +75,64 @@
             </section>
 
             <section>
-                <h2>Hasil</h2>
-                <div>
-                    <p>Berat Badan Lebih</p><br>
-                    <p>24.7</p><br>
-                    <p>Anda memiliki berat badan berlebih</p><br>
+                <header>
+                    <h2>Hasil</h2>
+                </header>
+
+                <div class="bg-container center">
+                    <div>
+                        <p>Berat Badan Lebih<br>
+                        <b>24.7</b><br>
+                        Anda memiliki berat badan berlebih</p>
+                    </div>
+    
+                    <div class="form-btn-container">
+                        <button class="button bg-blue">Download Hasil BMI</button>
+                    </div>
                 </div>
-                <button>Download Hasil BMI</button>
             </section>
 
             <section>
-                <p>Hasil BMI diantara 23 dan 25</p><br>
-                <p>Anda berada dalam kategori overweight atau berat badan berlebih</p><br>
-                <p>Cara terbaik untuk menurunkan berat badan adalah dengan mengatur kalor makanan yang dikonsumsi
-                    dan berolahraga
-                </p><br>
-                <p>Jika BMI Anda berada dalam kategori ini maka anda dianjurkan untuk menurunkan berat badan
+                <p>Hasil BMI diantara 23 dan 25</p>
+                
+                <p>Anda berada dalam kategori overweight atau berat badan berlebih<br>
+                    Cara terbaik untuk menurunkan berat badan adalah dengan mengatur kalor makanan yang dikonsumsi
+                    dan berolahraga<br>
+                    Jika BMI Anda berada dalam kategori ini maka anda dianjurkan untuk menurunkan berat badan
                     hingga batas normal
-                </p><br>
-                <div>
-                    <button></button>
-                    <button></button>
+                </p>
+
+                <div class="form-btn-container">
+                    <button class="button bg-blue">Konsultasi Ahli Gizi Via Aplikasi</button>
+                    <button class="button bg-blue">Registrasi Online Ahli Gizi</button>
+                </div>
+
+                <p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit
+                    seseorang. Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait
+                    dengan berat badan Anda.
+                </p>
+            </section>
+
+            <section class="bg-container center">
+                <p>
+                    Beberapa penyakit yang berasal dari kegemukan
+                    <ul>
+                        <li>Diabetes</li>
+                        <li>Hipertensi</li>
+                        <li>Sakit Jantung</li>
+                        <li>Osteoarthritis</li>
+                    </ul>
+                </p>
+
+                <div class="form-btn-container">
+                    <button class="button bg-blue">Konsultasi Dokter Via Aplikasi</button>
+                    <button class="button bg-blue">Registrasi Online Sekarang</button>
                 </div>
             </section>
-
-            <section>
-
-            </section>
-
     </main>
 
     <footer>
-        <p>Made by Syifa</p>
+        <p>Made by Syiffffq</p>
     </footer>
 </body>
 </html>

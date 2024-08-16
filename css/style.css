@@ -1,16 +1,18 @@
 /* ini css */
 
+*{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+
 .main-title{
     text-align: center;
 }
 
-main{
-    /* display: flex; */
-}
-
-form{
+.bg-container{
     padding: 12px;
-    background-color: aliceblue;
+    background-color: rgba(229, 239, 251, 1);
+    border-radius: 4px;
 }
 
 aside{
@@ -28,13 +30,23 @@ aside{
     margin-bottom: 4px;
 }
 
-.bg-cornsilk{
-    background-color: cornsilk;
+.bg-blue{
+    background-color: rgba(66, 81, 146, 1);
+    color: white;
 }
 
 .bg-reset{
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: black;
+    ;
+}
+
+.bg-blue:hover{
+    background-color: rgba(32, 49, 74, 1);
+}
+
+.bg-reset:hover{
+    background-color: rgba(176, 208, 233, 1);
 }
 
 input[type=number]{
@@ -45,6 +57,14 @@ input[type=number]{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+.center{
+    text-align: center; 
+}
+
+ul{
+    list-style-type: none;
 }
 
 footer{
